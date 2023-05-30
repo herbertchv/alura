@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+	<title>Programa de Encriptación y Desencriptación</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="caja-cabecera">
+            <h1 style="color:#0A3871">a</h1>
+            
+        </div>
+    </header>
+    <main>
+        <div class="caja-main">
+            <h1>Programa de Encriptación y Desencriptación</h1>
+            <label for="original">Texto original: </label>
+            <label > (Solo se acepta letras minúsculas, no ingresar letras con acentos ni caracteres especiales.)</label>
+            <textarea id="original"></textarea>
+            <label for="encriptado">Texto encriptado:</label>
+            <textarea id="encriptado"></textarea>
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </main>
+    <footer>
+        
+        <p class="copyright">&copy Copyright Herbert - 2023</p>
+    </footer>
+	<script src="script.js"></script>
+</body>
+</html>
